@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",  // Optional, sets the base directory for resolving non-relative module names
+      "paths": {
+        "*": ["src/types/*"]  // Optional, path mapping
+      },
+      "typeRoots": ["node_modules/@types", "src/types"],  // Directories where TypeScript should look for type declarations
+      "target": "es6",  // Set the ECMAScript target version
+      "module": "commonjs",  // Specify module code generation
+      "strict": true,  // Enable all strict type-checking options
+      "esModuleInterop": true,  // Enable interop between CommonJS and ES Modules
+      "skipLibCheck": true  // Skip type checking of all declaration files
+      // Other compiler options can be added here
+    },
+    "include": ["src"]  // Include your source files
+  }
+  
